@@ -1,0 +1,137 @@
+.container {
+    width: 900px;
+    height: 900px;
+    background-color:white;
+    box-sizing: border-box;
+    margin:auto;
+    box-shadow: 2px 2px #1e2e2e;
+}
+
+.game-area {
+    width: 95%;
+    height: 95%;
+    margin:2.5%;
+    box-shadow: 2px 2px grey;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color:whitesmoke;
+}
+.row1 {
+    height: 40%;
+    width: 100%;
+    display: inline-flex;
+
+}
+.row2 {
+    height: 20%;
+    width: 100%;
+    display: inline-flex;
+    margin-top: -4px;
+}
+
+.row1-column1 {
+    height: 100%;
+    width: 40%;
+    /* margin: 2%; */
+    padding: 16% 0 0 6%;
+}
+.row1-column2 {
+    width:20%;
+    height:100%;
+    float: left;
+}
+.row2-column1 {
+    width: 40%;
+    height: 100%;
+
+}
+
+.row2-column2 {
+    width: 20%;
+    height:100%;
+}
+
+.row1-column1 > div {
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin: 4.5%;
+    padding: 29px 0 29px;
+    box-shadow: 2px 2px #f7f7f7;
+    border: 4% solid whitesmoke;
+
+}
+header {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background-color: #1e2e2e;
+    color: #7b9797;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin:auto
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.row-no-mag {
+    margin-top: -2px;
+}
+
+.row1-column2 > div{
+    width: 33.3%;
+    height: 16.66%;
+    display: inline-flex;
+    float: left;
+}
+.row2-column1 > div {
+    float:left;
+    display: inline-flex;
+    height: 33.3%;
+    width: 16.66%;
+}
+
+.green {
+    background: #84c21f;
+}
+.blue {
+    background: #0092dc;
+}
+.yellow {
+    background: #f6c700;
+}
+.red {
+    background: #dc2418;
+}
+@media only screen and (max-width: 980px) {
+    .container{
+    width: 800px;
+    height: 800px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container{
+    width: 500px;
+    height: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .container {
+        width: 300px;
+        height: 300px;
+    }
+    .row1-column1 > div  {
+         padding: 0px 0 29px;
+    }
+}
